@@ -1,5 +1,5 @@
 import { api } from "./client";
-import type { RecaudacionKpiItem, CorteActivoItem } from "@/types/dashboard";
+import type { RecaudacionKpiItem, CorteActivoItem } from "@/shared/types/dashboard";
 
 export async function getRecaudacion(): Promise<RecaudacionKpiItem[]> {
     const { data } = await api.get("/dashboard/recaudacion");

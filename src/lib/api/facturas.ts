@@ -1,5 +1,5 @@
 import { api } from "./client";
-import type { DeudaFactura, HistorialConsumoItem } from "@/types/factura";
+import type { DeudaFactura, HistorialConsumoItem } from "@/shared/types/factura";
 
 export async function getDeudasByCi(ci: string): Promise<DeudaFactura[]> {
     const { data } = await api.get(`/facturas/usuario/${ci}/deudas`);

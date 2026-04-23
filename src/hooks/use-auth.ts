@@ -1,7 +1,7 @@
 "use client";
 
 import { create } from "zustand";
-import type { AuthUser } from "@/types/auth";
+import type { AuthUser } from "@/shared/types/auth";
 
 interface AuthState {
     user: AuthUser | null;
