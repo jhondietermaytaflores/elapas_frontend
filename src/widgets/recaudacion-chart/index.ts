@@ -1,0 +1,1 @@
+export { RecaudacionChart } from "./ui/recaudacion-chart";

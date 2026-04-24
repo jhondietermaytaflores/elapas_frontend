@@ -2,6 +2,7 @@
 
 import { ReactNode } from "react";
 import { AppToaster } from "@/shared/ui/toast/toaster";
+import { ThemeProvider } from "@/features/theme";
 
 interface ProvidersProps {
     children: ReactNode;
@@ -9,9 +10,9 @@ interface ProvidersProps {
 
 export function Providers({ children }: ProvidersProps) {
     return (
-        <>
+        <ThemeProvider>
             {children}
             <AppToaster />
-        </>
+        </ThemeProvider>
     );
 }

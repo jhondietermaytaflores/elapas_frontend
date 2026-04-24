@@ -7,8 +7,9 @@ export function Input({ className, ...props }: InputProps) {
     return (
         <input
             className={cn(
-                "transition-theme w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none",
-                "placeholder:text-slate-400 focus:border-slate-900",
+                "transition-theme w-full rounded-xl border px-4 py-3 text-sm outline-none",
+                "border-slate-300 bg-white text-slate-900 placeholder:text-slate-400 focus:border-slate-900",
+                "dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-slate-400",
                 className
             )}
             {...props}

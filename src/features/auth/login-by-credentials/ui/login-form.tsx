@@ -19,7 +19,7 @@ export function LoginForm() {
     return (
         <Card className="fade-in-up w-full max-w-md border-white/20 bg-white/95 p-8 backdrop-blur-sm">
             <div className="mb-6">
-                <h1 className="text-2xl font-bold text-slate-900">ELAPAS</h1>
+                <h1 className="text-2xl font-bold text-slate-900 dark:text-amber-50 text-center">ELAPAS</h1>
                 <p className="mt-2 text-sm text-slate-500">
                     Sistema de Gestión de Recaudaciones y Cortes
                 </p>

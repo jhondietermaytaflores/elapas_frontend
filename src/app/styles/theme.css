@@ -2,22 +2,26 @@
     --background: #f8fafc;
     --foreground: #0f172a;
     --card: #ffffff;
+    --card-foreground: #0f172a;
     --border: #e2e8f0;
     --primary: #0f172a;
     --primary-foreground: #ffffff;
     --accent: #0f766e;
     --muted: #64748b;
+    --muted-soft: #f1f5f9;
 }
 
-.dark {
+html.dark {
     --background: #020617;
     --foreground: #f8fafc;
     --card: #0f172a;
+    --card-foreground: #f8fafc;
     --border: #1e293b;
     --primary: #f8fafc;
     --primary-foreground: #020617;
     --accent: #14b8a6;
     --muted: #94a3b8;
+    --muted-soft: #0b1220;
 }
 
 .transition-theme {
@@ -28,4 +32,16 @@
         box-shadow 220ms ease,
         opacity 220ms ease,
         transform 220ms ease;
+}
+
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+    transition:
+        color 220ms ease,
+        background-color 220ms ease,
+        border-color 220ms ease,
+        box-shadow 220ms ease,
+        fill 220ms ease,
+        stroke 220ms ease !important;
 }

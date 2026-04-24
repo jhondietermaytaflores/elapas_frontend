@@ -24,6 +24,10 @@ export function useLoginForm() {
         try {
             const response = await loginRequest({ ci, password });
 
+            console.log("Token JWT:", response.access_token);
+            console.log("Usuario autenticado:", response.usuario);
+            console.log("Respuesta completa del login:", response);
+
             setSession(response.access_token, response.usuario);
 
             toast.success(`Bienvenido, ${response.usuario.nombre}`);
