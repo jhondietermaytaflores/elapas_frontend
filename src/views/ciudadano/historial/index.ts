@@ -1,0 +1,1 @@
+export { HistorialPage } from "./ui/historial-page";

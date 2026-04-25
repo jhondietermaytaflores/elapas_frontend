@@ -1,0 +1,1 @@
+export { HistorialConsumoChart } from "./ui/historial-consumo-chart";

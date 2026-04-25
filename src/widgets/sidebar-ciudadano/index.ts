@@ -1,0 +1,1 @@
+export { SidebarCiudadano } from "./ui/sidebar-ciudadano";

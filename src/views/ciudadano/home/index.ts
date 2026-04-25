@@ -1,0 +1,1 @@
+export { CiudadanoHomePage } from "./ui/ciudadano-home-page";

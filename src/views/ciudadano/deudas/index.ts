@@ -1,0 +1,1 @@
+export { DeudasPage } from "./ui/deudas-page";
