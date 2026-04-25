@@ -1,0 +1,1 @@
+export { GenerarFacturaForm } from "./ui/generar-factura-form";

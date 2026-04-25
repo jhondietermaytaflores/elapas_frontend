@@ -1,0 +1,1 @@
+export { CortesPage } from "./ui/cortes-page";

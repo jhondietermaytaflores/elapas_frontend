@@ -6,7 +6,7 @@ import { cn } from "@/shared/lib/cn";
 
 export function ThemeToggle() {
     const { theme, toggleTheme } = useTheme();
-    console.log("Tema actual:", theme);
+    /* console.log("Tema actual:", theme); */
     return (
         <button
             type="button"

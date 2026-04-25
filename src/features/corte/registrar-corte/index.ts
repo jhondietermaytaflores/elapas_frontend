@@ -1,0 +1,1 @@
+export { RegistrarCorteForm } from "./ui/registrar-corte-form";
